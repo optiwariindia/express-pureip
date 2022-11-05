@@ -1,0 +1,32 @@
+{
+  "name": "express-pureip",
+  "version": "1.0.0",
+  "description": "Format IP V4 Addresses in express server running behind an IP V6 Local Network and exposed on IPV4 resulting in a mixed IP Address as output",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/optiwariindia/express-pureip.git"
+  },
+  "keywords": [
+    "express",
+    "Client's",
+    "IP",
+    "Address",
+    "express-clientip",
+    "Visitor's",
+    "IP",
+    "Address",
+    "IP",
+    "V4",
+    "formatter"
+  ],
+  "author": "Om Prakash Tiwari <optiwari.india@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/optiwariindia/express-pureip/issues"
+  },
+  "homepage": "https://github.com/optiwariindia/express-pureip#readme"
+}
