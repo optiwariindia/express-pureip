@@ -1,6 +1,6 @@
 {
   "name": "express-pureip",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Format IP V4 Addresses in express server running behind an IP V6 Local Network and exposed on IPV4 resulting in a mixed IP Address as output",
   "main": "index.js",
   "scripts": {
