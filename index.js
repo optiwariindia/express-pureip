@@ -6,12 +6,6 @@ module.exports=(req,res,next)=>{
         req.clientIP=null;
         return next();
     }
-
-    // if(ip == ip.match(/[0-9a-f\:]*/i)){
-    //     req.clientIP=ip;
-    //     return next();
-    // }
-    // let temp=ip.split(":").pop();
     req.clientIP=filterIP(ip).join(", ");
     return next();
 }
