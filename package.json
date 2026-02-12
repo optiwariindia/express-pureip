@@ -4,7 +4,7 @@
   "description": "Format IP V4 Addresses in express server running behind an IP V6 Local Network and exposed on IPV4 resulting in a mixed IP Address as output",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node unitTest.js && node test_middleware.js"
   },
   "repository": {
     "type": "git",
